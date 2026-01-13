@@ -1,0 +1,10 @@
+
+
+path: C:/Users/ragad/PycharmProjects/Yolov5HandDectetion/HandDetect/hands.v2i.yolov8-obb
+
+train: train/images
+val: valid/images
+test: test/images
+
+names:
+  0: hand
