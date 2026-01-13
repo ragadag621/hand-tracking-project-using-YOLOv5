@@ -3,8 +3,7 @@ import cv2
 import numpy as np
 from ultralytics import YOLO
 
-model = YOLO("C:/Users/ragad/PycharmProjects/Yolov5HandDectetion/HandDetect/runs/detect/train3/weights/best.pt")
-
+model = YOLO("Models/best.pt")
 cap = cv2.VideoCapture(0)
 
 while cap.isOpened():
